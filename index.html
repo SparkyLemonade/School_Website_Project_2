@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--Assuming "Menu with Marquee" and "Contact Us" has been completed in Project 68 --><nav class="navbar-inverse main_navbar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"> Harvard University </a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li> <a href="#welcome"> Home </a></li>
+                <li> <a href="#campus-life"> Campus Life </a></li>
+                <li> <a href="#achievements"> Achievements </a></li>
+                <li> <a href="#whatsnew"> What's New </a></li>
+                <li> <a href="#alumni"> Alumni </a></li>
+                <li> <a href="#contactus"> Contact Us </a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="marquee">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();" width="100%" direction="right" height="100px">
+Contact us at college@fas.harvard.edu!
+</marquee>
+        
+        <iframe width="727" height="409" src="https://www.youtube.com/embed/7YUzkARKtVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+    <section id="welcome">
+        <h1>Harvard University</h1>
+        <h2> Website by Smriti </h2>
+    </section>
+   
+    <section id="contactus">
+        <div class="container">
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ContactUsDiv">
+                <h2 class="text-capitalize">Contact Us</h2>
+            </div>
+            
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2947.382061545886!2d-71.11884878516707!3d42.37700684202486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e377427d7f0199%3A0x5937c65cee2427f0!2sHarvard%20University!5e0!3m2!1sen!2sus!4v1627612696024!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div id="details">
+                <img src="https://i.postimg.cc/RZMSc6hR/sp.png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                <h3> President Name: </h3>
+                <h4> Lawrence Bacow</h4>
+                <div class="contact_1">
+                    <a href="mailto:college@fas.harvard.edu?Subject=I would like to admit to Harvard University.">
+                        <h5> <i class="fa fa-envelope"></i>&nbsp;&nbsp;college@fas.harvard.edu</h5>
+                    </a>
+                    <a href="https://www.instagram.com/harvard/" target="_blank">
+                        <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;Harvard University Instagram</h5>
+                    </a>
+                    <a href="https://www.google.com/search?q=harvard+university+phone+number&oq=harvard+university+phone+number&aqs=chrome..69i57.7480j0j4&sourceid=chrome&ie=UTF-8#" target="_blank">
+                        <h5> <i class="fa fa-phone-square"></i>&nbsp;&nbsp;(617) 495-1000</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <div class="container">
+        <!--Campus Life-->
+        <div class="page-header" id="campus-life">
+            <h2 class="text-capitalize">Campus Life</h2>
+
+            <div class="row">
+                <!--1st Campus Life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://images.static-collegedunia.com/public/college_data/images/studyabroad/appImage/college_1090_29-15:00_o-HARVARD-UNIVERSITY-BUILDING-facebook.jpeg?tr=w-2000,c-force">
+                    <h4 class="text-capitalize"><kbd>Harvard University</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was established in 1636</h5>
+                    <p class="text-muted text-left">Harvard University is a private Ivy League research university in Cambridge, Massachusetts. Established in 1636 and named for its first benefactor, clergyman John Harvard, Harvard is the oldest institution of higher learning in the United States and among the most prestigious in the world.</p>
+                </div>
+                <!--2nd Campus Life-->
+                <div class="travel_mainDiv">
+                    <!--Give appropriate class below for the image img-responsive-->
+                    <img class="img-responsive" src="https://i.pinimg.com/originals/0a/72/52/0a7252b0152c62fb46a650ee8f67f585.jpg">
+                    <h4 class="text-capitalize"><kbd>Harvard University Library</kbd></h4>
+                    <hr>
+                    <!--Give classes below text-success text-left-->
+                    <h5 class="text-capitalize text-success text-left">Was built in 1638</h5>
+                    <p class="text-muted text-left">The Harvard Library is the umbrella organization for the Harvard University libraries and their shared services, such as access, preservation, digital infrastructure, digital imaging, and discovery services. The Harvard Library is nearly 400 years old, making it the oldest library system in the United States. Additionally, the Harvard Library is the largest private library system and largest academic library in the world. Its collection holds nearly 20 million volumes, 400 million manuscripts, 10 million photographs, and one million maps.</p>
+
+                </div>
+                <!--3rd Campus life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://i.postimg.cc/cLDDX2xz/st3.jpg">
+                    <!-- Give text-capitalize below to make the first letters in Capitals-->
+                    <h4 class="text-capitalize"><kbd>Harvard Hall</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was built between 1674 and 1677</h5>
+                    <!-- Give text-muted below to show the text in grey color-->
+                    <p class="text-left text-muted">The present Harvard Hall replaces an earlier structure of the same name on the same site. The first Harvard Hall was built between 1674 and 1677. It was Harvard College's first brick building and replaced a decaying wooden building located a few hundred feet to the southeast. Samuel Andrew, a local Cambridge merchant and shipwright was the master builder. <br>
+
+<strong>Present Building <br></strong>
+The original Harvard Hall burned on January 24, 1764, destroying 4,500 of the College Library's 5,000 books as well as its collection of "philosophical apparatus" (scientific instruments). The Massachusetts General Court, which had been meeting in Harvard Hall to escape a smallpox epidemic in Boston, took responsibility for the fire and funded reconstruction. Thanks to generous donors such as Thomas Hollis V and John Hancock, within two years the new Harvard Hall housed a library larger than that the College had before the fire. Thomas Dawes, who also built Hollis Hall at Harvard, was the master builder.</p>
+                </div>
+
+            </div>
+        </div>
+        <!--Achievements-->
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+            The Olympics <i class="fa fa-sort-desc"></i>
+        </div>
+        <!--1st Achievement-->
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/1200px-Olympic_rings_without_rims.svg.png" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Won 8 Gold Medals in the Olympics.
+                </h5>
+                <p>In the 1896 Olympics, 7 Harvard Students won 8 gold medals. In total, Harvard Alumni have won 108 Olympic medals (46 gold).</p>
+            </div>
+        </div>
+        <!--2nd Achievement-->
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+           Awards and Achievements<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement2" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Harvard_shield_wreath.svg/150px-Harvard_shield_wreath.svg.png" class="img-responsive img-thumbnail">
+            </div>
+            
+            <div class="movie_text col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <h5 class="text-success text-left text-capitalize">Harvard Alumni have received and won many prestigious awards.
+                </h5>
+                <p>Harvard has more alumni, faculty, and researchers who have won Nobel Prizes (161) and Fields Medals (18) than any other university in the world and more alumni who have been members of the U.S. Congress, MacArthur Fellows, Rhodes Scholars (375), and Marshall Scholars (255) than any other university in the United States. Its alumni include eight U.S. presidents and 188 living billionaires, the most of any university. Fourteen Turing Award laureates have been Harvard affiliates. Students and alumni have won 10 Academy Awards, 48 Pulitzer Prizes, and 108 Olympic medals (46 gold), and they have founded many notable companies.</p>
+            </div>
+        </div>
+
+        <!--3rd Achievement--->
+
+        <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#school_achievement3">
+           The First North American University & General Accomplishments<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement3" class="collapse">
+            <!-- Add bootstrap col-lg-3 col-md-3 col-sm-3 col-xs-12-->
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs12" id="achievementsID">
+                <img src="https://pbs.twimg.com/media/CvDm5SIXgAAibyR.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+              <h5 class="text-left text-success text-capitalize">Harvard was The First university to ever be established in North America & general accomplishments.
+                </h5>
+                <p>Harvard University was the first institution of higher education established in the new world. The buildings and campus of the university are among the most beautiful of all the universities in America. Harvard University has a vast offer of study programs: law, medicine, astronomy, sociology, etc. Thus, whatever the interest of a student, Harvard has an option. And as mentioned, Harvard is at the top in almost all the fields of study.</p>
+            </div>
+        </div>
+
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>
